@@ -556,6 +556,23 @@ nav {
   }
 }
 @media screen and (max-width: 550px) {
+  .gift-beca {
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -50%;
+    margin-top: -10%;
+  }
+  .texto-gift {
+    display: flex;
+    justify-content: center;
+  }
+  #precio {
+    margin-top: 30%;
+  }
+  .flip {
+    width: 90%;
+  }
   .contenedor {
     display: block;
   }
@@ -747,6 +764,9 @@ nav {
   }
 }
 @media only screen and (min-width: 600px) {
+  .disfruta {
+    margin-top: -10% !important;
+  }
   .info {
     margin-top: 330px;
     margin-left: 90%;
